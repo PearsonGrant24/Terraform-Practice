@@ -1,7 +1,10 @@
 As I continue to sharpen my skills as a DevOps Engineer, I’ve been practicing how to structure Terraform projects the same way companies manage production-ready infrastructure.
 Instead of lumping everything into one flat project, I adopted a modular + environment-based approach. This ensures:
+
 🔹 Reusable Modules :
  Separate modules for VPC, EC2, RDS, and S3. Each module is cleanly defined with main.tf, variables.tf, and outputs.tf, making them reusable across environments.
+
+ 
 🔹 Environment Isolation :
 Dedicated folders for dev, stage, and prod, each with its own:
     • main.tf (calling modules)
