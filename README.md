@@ -21,9 +21,11 @@ This mirrors how companies manage infrastructure in production:
     • Production is secure, scalable, and robust.
 With this approach, I can spin up infrastructure consistently across all environments — no manual tweaks, no surprises.
 
+The project structure::
 
 
-The project structure: 
+
+.
  <img width="459" height="759" alt="Screenshot from 2025-09-02 21-40-10" src="https://github.com/user-attachments/assets/a7817bf3-2689-449e-9f18-d43ba3c26d61" />
 
 
